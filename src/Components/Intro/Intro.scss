@@ -1,0 +1,56 @@
+@import '../../Assets/Sass/Veriables.scss';
+
+.intro {
+    background-image: url('../../Assets/Img/intro.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: -20px;
+    padding-top: 245px;
+    height: 100vh;
+
+    .container {
+        display: flex;
+        align-items: center;
+        &__left {
+            &__list {
+                &__natural {
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 40px;
+                    color: $white;
+                }
+
+                &__title {
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 60px;
+                    line-height: 79px;
+                    color: $white;
+                }
+            }
+            &__btn{
+                width: 245px;
+                height: 60px;
+                border-radius: .5rem;
+                font-family: 'Roboto Slab';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                color: $white;
+                background-color: $green;
+                border: transparent;
+                margin-top: 60px;
+            }
+        }
+        &__right{
+            img{
+                width: 770px;
+                height: 480px;
+            }
+        }
+    }
+}
