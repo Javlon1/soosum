@@ -6,7 +6,6 @@ import order from '../../Assets/Img/order.png'
 
 export default function Order() {
 
-
     const formReg = (e) => {
         e.preventDefault()
         const el = e.target.elements

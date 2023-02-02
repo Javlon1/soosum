@@ -30,9 +30,10 @@ export default function Header() {
 
   return (
     <header className={scrol ? 'header header__bc' : 'header'}>
-      <div className="container"><a className='container__img' href="/">
-        <img src={Logo} alt="logo" />
-      </a>
+      <div className="container">
+        <a className='container__img' href="/">
+          <img src={Logo} alt="logo" />
+        </a>
         <nav className='container__nav'>
           <ul className='container__nav__list'>
             {

@@ -144,19 +144,19 @@
                 object-fit: cover;
                 position: relative;
                 right: 150px;
-                top: 120px;
+                top: 120px;animation: orderRight 5s infinite ease-in-out;
             }
-            // @keyframes orderRight {
-            //     0%{
-            //         transform: rotate(-10deg);
-            //     }
-            //     50%{
-            //         transform: rotate(5deg);
-            //     }
-            //     100%{
-            //         transform: rotate(-10deg);
-            //     }
-            // }
+            @keyframes orderRight {
+                0%{
+                    transform: rotate(-10deg);
+                }
+                50%{
+                    transform: rotate(5deg);
+                }
+                100%{
+                    transform: rotate(-10deg);
+                }
+            }
         }
     }
 }
