@@ -1,0 +1,58 @@
+@import '../../Assets/Sass/Veriables.scss';
+
+.facts {
+    .container {
+        &__title {
+            margin-top: 150px;
+            text-align: center;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 54px;
+            line-height: 65px;
+        }
+
+        &__list {
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__item {
+                background-image: url('../../Assets/Img/fact.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+                width: 385px;
+                height: 398px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+
+                &__title {
+                    margin-top: 80px;
+                    color: $red;
+                    font-family: 'Bitter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 60px;
+                    line-height: 72px;
+                    border-bottom: 2px solid $red;
+                }
+
+                &__text {
+                    margin-top: 20px;
+                    color: $red;
+                    width: 215px;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}

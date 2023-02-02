@@ -198,6 +198,30 @@ export const ShouldDrink = [
     }
 ]
 
+export const FactsData = [
+    {
+        id: 1,
+        numb: 100,
+        text_uz: '100 ga yaqin kasalliklarni oldini olish va davolashda qollaniladi',
+        text_ru: '',
+        text_en: ''
+    },
+    {
+        id: 2,
+        numb: '1.3 mlrd',
+        text_uz: '1,3 mlrd xitoyliklar  jenshenni inson uchun eng foydali mahsulot deb hisoblashadi 1,3 mlrd xitoyliklar ',
+        text_ru: '',
+        text_en: ''
+    },
+    {
+        id: 3,
+        numb: 100,
+        text_uz: "Jenshen o'simligi 100 yilgacha umr ko'radi",
+        text_ru: '',
+        text_en: ''
+    }
+]
+
 export const Question = [
     {
         id: 1,
