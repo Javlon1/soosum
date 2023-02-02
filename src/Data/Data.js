@@ -203,22 +203,22 @@ export const FactsData = [
         id: 1,
         numb: 100,
         text_uz: '100 ga yaqin kasalliklarni oldini olish va davolashda qollaniladi',
-        text_ru: '',
-        text_en: ''
+        text_ru: 'Применяется для профилактики и лечения около 100 заболеваний.',
+        text_en: 'It is used in the prevention and treatment of about 100 diseases'
     },
     {
         id: 2,
         numb: '1.3 mlrd',
         text_uz: '1,3 mlrd xitoyliklar  jenshenni inson uchun eng foydali mahsulot deb hisoblashadi 1,3 mlrd xitoyliklar ',
-        text_ru: '',
-        text_en: ''
+        text_ru: '1,3 миллиарда китайцев считают женьшень самым полезным продуктом для человека 1,3 миллиарда китайцев',
+        text_en: '1.3 billion Chinese consider ginseng to be the most useful product for humans 1.3 billion Chinese'
     },
     {
         id: 3,
         numb: 100,
         text_uz: "Jenshen o'simligi 100 yilgacha umr ko'radi",
-        text_ru: '',
-        text_en: ''
+        text_ru: 'Женьшень живет до 100 лет',
+        text_en: 'The ginseng plant lives up to 100 years'
     }
 ]
 

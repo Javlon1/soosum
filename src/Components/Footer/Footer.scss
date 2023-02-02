@@ -1,7 +1,105 @@
-.footer{
+@import '../../Assets/Sass/Veriables.scss';
+
+.footer {
     margin-top: 150px;
+    padding-top: 100px;
     background-image: url('../../Assets/Img/footer-bi.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 612px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__list1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 293px;
+            height: 286px;
+            text-align: center;
+
+            &__text {
+                color: $white;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 550;
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+            }
+
+            &__icon {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    img {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &__list2 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 293px;
+            height: 156px;
+            &__item{
+                a{
+                    color: $white;
+                }
+            }
+        }
+        &__form{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 313px;
+            height: 286px;
+            &__text{
+                font-family: 'Roboto Slab';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: $white;
+            }
+            &__inp{
+                width: 100%;
+                height: 52px;
+                background: #89363D;
+                border-radius: 10px;
+                border: transparent;
+                padding: 0 1rem;
+            }
+            &__btn{
+                width: 100%;
+                height: 52px;
+                background: #B04C08;
+                box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.09);
+                border-radius: 5px;
+                border: transparent;
+                color: $white;
+                font-size: 1.3rem;
+            }
+        }
+    }
 }

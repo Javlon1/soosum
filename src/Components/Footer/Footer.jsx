@@ -32,28 +32,37 @@ export default function Footer() {
     <footer className='footer'>
       <div className="container">
         {
-          <ul>
-            <li><a href="#"><img src={Logo} alt="" /></a></li>
-            <li><p>Janubiy Koreyada tayyorlangan haqiqiy 6 yillik qizil jenshen ekstrakti</p></li>
-            <li><a href="/"><img src="" alt="" /></a></li>
+          <ul className='container__list1'>
+            <li className='container__list1__logo'><a href="#"><img src={Logo} alt="" /></a></li>
+            <li className='container__list1__text'><p>Janubiy Koreyada tayyorlangan haqiqiy 6 yillik qizil jenshen ekstrakti</p></li>
+            <li className='container__list1__icon'>
+              {
+                <a href="/">
+                  <img src="https://i.pinimg.com/originals/79/c3/15/79c315509d714f25c500ede412d38de7.jpg" alt="" />
+                  <img src="https://i.pinimg.com/originals/79/c3/15/79c315509d714f25c500ede412d38de7.jpg" alt="" />
+                  <img src="https://i.pinimg.com/originals/79/c3/15/79c315509d714f25c500ede412d38de7.jpg" alt="" />
+                  <img src="https://i.pinimg.com/originals/79/c3/15/79c315509d714f25c500ede412d38de7.jpg" alt="" />
+                </a>
+              }
+            </li>
           </ul>
         }
-        {
-          Nav?.map((e) => (
-            <ul key={e.id}>
-              <li><a href={e.href}>{e[`nav_${lan}`]}</a></li>
-            </ul>
-          ))
-        }
+        <ul className='container__list2'>
+          {
+            Nav?.map((e) => (
+              <li key={e.id} className='container__list2__item'><a href={e.href}>{e[`nav_${lan}`]}</a></li>
+            ))
+          }
+        </ul>
         {
           Orders?.map((e) => (
-            <form onSubmit={formReg} key={e.id} action="#">
-              <p>{e[`text_${lan}`]}</p>
-              <input type="text" name='name' placeholder='Name' />
-              <input type="text" name='tel' defaultValue={998} />
+            <form className='container__form' onSubmit={formReg} key={e.id} action="#">
+              <p className='container__form__text'>{e[`text_${lan}`]}</p>
+              <input className='container__form__inp' type="text" name='name' placeholder='Name' />
+              <input className='container__form__inp' type="text" name='tel' defaultValue={998} />
               {
                 e.btn?.map((j) => (
-                  <button type='submit' key={j.id}>{j[`title_${lan}`]}</button>
+                  <button className='container__form__btn' type='submit' key={j.id}>{j[`title_${lan}`]}</button>
                 ))
               }
             </form>
