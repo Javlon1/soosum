@@ -11,7 +11,54 @@
             height: 574px;
             border-radius: 2rem;
             background-color: $red;
-            
+            background-image: url('../../Assets/Img/order-bi.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            &__form{
+                padding: 30px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: space-between;
+                flex-direction: column;
+                &__title{
+                    color: $white;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 46px;
+                    line-height: 65px;
+                }
+                &__text{
+                    color: $white;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    line-height: 27px;
+                }
+                &__inp{
+                    width: 405px;
+                    height: 68px;
+                    color: $white;
+                    background: #89363D;
+                    border-radius: 1rem;
+                    border: transparent;
+                    padding: 0 2rem;
+                }
+                &__btn{
+                    width: 405px;
+                    height: 68px;
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    line-height: 21px;
+                    border-radius: 1rem;
+                    background-color: $green;
+                    border: transparent;
+                }
+            }
         }
     }
 }

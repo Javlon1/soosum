@@ -3,19 +3,22 @@ export const Nav = [
         id: 1,
         nav_uz: 'Kompaniya Haqida',
         nav_ru: 'О Kомпании',
-        nav_en: 'About Company'
+        nav_en: 'About Company',
+        href: '#'
     },
     {
         id: 2,
         nav_uz: "Faktlar",
         nav_ru: 'Факты',
-        nav_en: 'Facts'
+        nav_en: 'Facts',
+        href: '#'
     },
     {
         id: 3,
         nav_uz: 'Mahsulot',
         nav_ru: 'Продукт',
-        nav_en: 'Product'
+        nav_en: 'Product',
+        href: '#'
     }
 ]
 
@@ -25,6 +28,7 @@ export const Btn = [
         title_uz: 'Buyurtma berish',
         title_ru: 'Разместить заказ',
         title_en: 'Place an order',
+        href: '#order'
     }
 ]
 
@@ -72,6 +76,22 @@ export const Orders = [
         benefit_uz: 'foyda',
         benefit_ru: 'польза',
         benefit_en: 'benefit',
+        numb: [
+            {
+                id: 1,
+                def: 1399000,
+                dis: 1199000,
+                ben: 200000
+            }
+        ],
+        btn: [
+            {
+                id: 1,
+                title_uz: 'Buyurtma berish',
+                title_ru: 'Разместить заказ',
+                title_en: 'Place an order',
+            }
+        ]
     }
 ]
 

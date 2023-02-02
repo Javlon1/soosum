@@ -32,11 +32,12 @@
                 }
             }
             &__btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 245px;
                 height: 60px;
                 border-radius: .5rem;
-                font-family: 'Roboto Slab';
-                font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 24px;
