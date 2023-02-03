@@ -8,6 +8,7 @@ import Order from './Components/Order/Order';
 import AboutComp from './Components/AboutComp/AboutComp';
 import WhoEats from './Components/WhoEats/WhoEats';
 import HowUse from './Components/HowUse/HowUse';
+import PriceDrug from './Components/PriceDrug/PriceDrug';
 
 function App() {
   const [scrol, setScrol] = useState(false)
@@ -50,14 +51,15 @@ function App() {
   //
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <Intro />
-      <Order />
+      <Order /> */}
+      <PriceDrug />
       <AboutComp />
       <WhoEats />
       <HowUse />
-      <Facts />
-      <Footer />
+      {/* <Facts /> */}
+      {/* <Footer /> */}
       <div onClick={top} className={scrol ? "scroll-up active" : "scroll-up"}>
         <svg className='scroll-up__svg' viewBox='-2 -2 52 52'>
           <path className='scroll-up__svg__path'

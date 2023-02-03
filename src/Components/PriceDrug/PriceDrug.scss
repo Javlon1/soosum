@@ -1,0 +1,82 @@
+.priceDrug {
+    background-image: url(../../Assets/Img/jenshenBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prugs {
+    display: flex;
+    justify-content: space-between;
+    height: 946px;
+    align-items: center;
+}
+.prugs_child {
+    background-image: url("../../Assets/Img/Uy.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 579px;
+    height: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // justify-content: space-between;
+    img {
+        max-width: 300px;
+        height: 220px;
+        object-fit: contain;
+        margin-top: 70px;
+    }
+    p {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .prugs_child {
+        img {
+            max-width: 230px;
+            height: 190px;
+            margin: 0;
+            margin-top: -30px;
+        }
+        p {
+            font-size: 24px;
+            padding-top: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .prugs_child {
+        img {
+            max-width: 170px;
+            max-height: 140px;
+            margin: 0;
+            margin-top: -150px;
+        }
+        p {
+            font-size: 18px;
+            // padding-top: 10px;
+            padding-bottom: 15px;
+        }
+    }
+    .prugs{
+        height: 746px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .prugs {
+        flex-direction: column;
+    }
+    .prugs_child {
+        width: 379px;
+        height: 365px;
+
+        img{
+            margin-top: 90px;
+        }
+    }
+}
