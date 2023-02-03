@@ -8,7 +8,6 @@ import Order from './Components/Order/Order';
 import AboutComp from './Components/AboutComp/AboutComp';
 import WhoEats from './Components/WhoEats/WhoEats';
 import HowUse from './Components/HowUse/HowUse';
- HEAD
 import Sabzi from './Components/Sabzi/Sabzi';
 
 import PriceDrug from './Components/PriceDrug/PriceDrug'
