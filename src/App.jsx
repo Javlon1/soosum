@@ -8,12 +8,10 @@ import Order from './Components/Order/Order';
 import AboutComp from './Components/AboutComp/AboutComp';
 import WhoEats from './Components/WhoEats/WhoEats';
 import HowUse from './Components/HowUse/HowUse';
-<<<<<<< HEAD
+ HEAD
 import Sabzi from './Components/Sabzi/Sabzi';
-=======
-import PriceDrug from './Components/PriceDrug/PriceDrug';
 
->>>>>>> a3f48fd0e1cbb590758d79cdbfab23d4ae11156a
+import PriceDrug from './Components/PriceDrug/PriceDrug'
 function App() {
   const [scrol, setScrol] = useState(false)
   const offSet = 100;
@@ -58,11 +56,10 @@ function App() {
       <Header />
       <Intro />
       <Order />
-<<<<<<< HEAD
+ HEAD
       <Sabzi/>
-=======
       <PriceDrug />
->>>>>>> a3f48fd0e1cbb590758d79cdbfab23d4ae11156a
+
       <AboutComp />
       <WhoEats />
       <HowUse />
