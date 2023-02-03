@@ -55,10 +55,8 @@ function App() {
       <Header />
       <Intro />
       <Order />
- HEAD
-      <Sabzi/>
       <PriceDrug />
-
+      <Sabzi/>
       <AboutComp />
       <WhoEats />
       <HowUse />
