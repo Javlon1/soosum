@@ -1,0 +1,59 @@
+.sabzi{
+    .container{
+        .id1, .id2{
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                width: 646px;
+                height: 457px;
+            }
+            p{
+                background-image: url("../../Assets/Img/order-bi.png");
+                width: 578px;
+                height: 454px;
+                font-family: 'Roboto Slab';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 34px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .id3{
+            background-image: url('../../Assets/Img/bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1260px;
+            height: 528px;
+            align-items: center;
+            margin-top: 100px;
+            display: flex;
+            object-fit: cover;
+            img{
+                margin-left: 20px;
+                width: 550px;
+                height: 389px;
+            }
+            p{
+                margin-top: 50px;
+                margin-left: 70px;
+                background-size: contain;
+                background-image: url("../../Assets/Img/order-bi.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 550px;
+                height: 424px;
+                font-family: 'Roboto Slab';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
