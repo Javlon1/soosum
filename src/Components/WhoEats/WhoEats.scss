@@ -1,0 +1,115 @@
+.whoEats__back {
+    background-image: url("../../Assets/Img/WhoEatsBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    background-attachment: fixed;
+
+    // display: flex;
+    // align-items: center;
+    .WhoEats__text {
+        padding-top: 50px; 
+        padding-bottom: 200px;
+        display: flex;
+        align-items: center;
+        .whoEats__child {
+            max-width: 800px;
+            height: 500px;
+            margin: 0;
+            h5 {
+                color: #4d3300;
+                font-size: 50px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+    
+.whoEats__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 150px;
+    height: 600px;
+    padding-top: 50px;
+    li{
+        max-width: 350px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #4d3300;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .whoEats__list{
+        max-width: 650px;
+        padding-bottom: 100px;
+        padding-top: 0;
+        li{
+            font-size: 20px;
+            max-width: 300px;
+        }
+    }
+    .whoEats__back{
+        .WhoEats__text{
+            .whoEats__child{
+                h5{
+                    font-size: 40px;
+                    max-width: 700px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:617px) {
+    .whoEats__back{
+        .WhoEats__text{
+            .whoEats__child{
+                h5{
+                    font-size: 35px;
+                    max-width: 700px;
+                }
+            }
+        }
+    }
+
+    .whoEats__list{
+        max-width: 650px;
+        padding-bottom: 100px;
+        padding-top: 0;
+        li{
+            font-size: 16px;
+            max-width: 250px;
+        }
+    }
+}
+@media only screen and (max-width:537px) {
+    .whoEats__back{
+        .WhoEats__text{
+            .whoEats__child{
+                h5{
+                    font-size: 28px;
+                    max-width: 600px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .whoEats__list{
+        display: flex;
+        flex-direction: column;
+        li{
+            text-align: center;
+            font-size: 16px;
+            max-width: 250px;
+        }
+    }
+}

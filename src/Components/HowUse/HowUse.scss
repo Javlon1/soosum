@@ -1,0 +1,50 @@
+.howUse{
+    background-image: url('../../Assets/Img/howUse__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    
+    .howUse__text{
+        padding: 90px 0 56px 0;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 36px;
+            color: #fff;
+            font-weight: 500;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+}
+
+@media only screen and (max-width:703px) {
+    .howUse{
+        background-position: center left;
+        .howUse__text{
+            padding: 90px 0 56px 0;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: #333;
+            span{
+                font-size: 28px;
+                color: rgb(238, 234, 234);
+                font-weight: 500;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 400;
+                color: rgb(255, 255, 255);
+                line-height: 33px;
+                padding:  20px;
+            }
+        }
+    }
+}

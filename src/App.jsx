@@ -5,6 +5,9 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Intro from './Components/Intro/Intro';
 import Order from './Components/Order/Order';
+import AboutComp from './Components/AboutComp/AboutComp';
+import WhoEats from './Components/WhoEats/WhoEats';
+import HowUse from './Components/HowUse/HowUse';
 
 function App() {
   const [scrol, setScrol] = useState(false)
@@ -50,8 +53,10 @@ function App() {
       <Header />
       <Intro />
       <Order />
+      <AboutComp />
+      <WhoEats />
+      <HowUse />
       <Facts />
-
       <Footer />
       <div onClick={top} className={scrol ? "scroll-up active" : "scroll-up"}>
         <svg className='scroll-up__svg' viewBox='-2 -2 52 52'>

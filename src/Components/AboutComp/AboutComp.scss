@@ -1,0 +1,123 @@
+.aboutComp__back {
+    background-image: url(../../Assets/Img/aboutCompanyBg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    .aboutComp__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            font-size: 50px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        p {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 400;
+            line-height: 33px;
+            margin-top: 50px;
+        }
+
+        img {
+            // width: 590px;
+            object-fit: contain;
+            height: 620px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1094px) {
+    .aboutComp__back {
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutComp__text {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        span {
+            text-align: center;
+            margin: 0 auto;
+        }
+        p {
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .aboutComp__text {
+        .dfCentre {
+            p {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            span {
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+        }
+
+        img {
+            height: 470px;
+            width: 480px;
+            object-fit: contain;
+            margin-bottom: -80px;
+        }
+    }
+}
+
+@media only screen and (max-width:487px) {
+    
+    .aboutComp__text{
+
+        img{
+            width: 400px;
+            height: 390px;
+            object-fit: contain;
+            margin-bottom: -117px;
+        }
+    }
+}
+@media only screen and (max-width:401px) {
+    
+    .aboutComp__text{
+
+        img{
+            width: 320px;
+            height: 330px;
+            object-fit: contain;
+            margin-bottom: -157px;
+        }
+    }
+}
+@media only screen and (max-width:363px) {
+    
+    .aboutComp__text{
+
+        .dfCentre{
+
+            span{
+                font-size: 30px;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}
