@@ -1,8 +1,10 @@
 .aboutComp__back {
+    margin-top: 150px;
     background-image: url(../../Assets/Img/aboutCompanyBg.png);
+    background-size: cover;
+    height:490px;
     background-repeat: no-repeat;
     background-position: bottom;
-
     .aboutComp__text {
         display: flex;
         justify-content: space-between;
@@ -25,6 +27,7 @@
             // width: 590px;
             object-fit: contain;
             height: 620px;
+            margin-top: -130px;
         }
     }
 }

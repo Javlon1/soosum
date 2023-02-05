@@ -38,7 +38,7 @@ export default function Order() {
                             <form onSubmit={formReg} className='container__left__form' key={e.id} action="#">
                                 <h2 className='container__left__form__title'>{e[`title_${lan}`]}</h2>
                                 <p className='container__left__form__text'>{e[`text_${lan}`]}</p>
-                                <input className='container__left__form__inp' name='name' type="text" placeholder='name' />
+                                <input className='container__left__form__inp' name='name' type="text" placeholder={e[`place_${lan}`]} />
                                 <input className='container__left__form__inp' name='tel' type="text" defaultValue={998} />
                                 {e.btn?.map((j) => (
                                     <button type='submit' className='container__left__form__btn' key={j.id}>{j[`title_${lan}`]}</button>

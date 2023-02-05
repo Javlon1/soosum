@@ -76,6 +76,9 @@ export const Orders = [
         benefit_uz: 'foyda',
         benefit_ru: 'польза',
         benefit_en: 'benefit',
+        place_uz: 'ismingiz',
+        place_ru: 'ваше имя',
+        place_en: 'your name',
         numb: [
             {
                 id: 1,
